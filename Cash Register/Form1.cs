@@ -180,7 +180,7 @@ namespace Cash_Register
                 {
                     change = tendered - total;
 
-                    changeBox.Text = "Change Due: " + (change).ToString("0.#0");
+                    changeBox.Text = "Change Due: $" + (change).ToString("0.#0");
 
                     receiptButton.Enabled = true;
                     changeButton.Enabled = false;
